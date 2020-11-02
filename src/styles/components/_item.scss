@@ -1,0 +1,12 @@
+.item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: $m_size;
+    border-bottom: 1px solid lighten($color: $brand-primary_FADED, $amount: 5%);
+}
+
+.item__text {
+    color: lighten($color: $brand-primary, $amount: 5%);
+    font-size: $m_size;
+}

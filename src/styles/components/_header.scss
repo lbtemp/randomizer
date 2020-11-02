@@ -1,0 +1,19 @@
+.header {
+    background-color: $brand-darker;
+    margin-bottom: $xl_size;
+    padding: $m_size 0;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.header__title {
+    color: $brand-primary;
+    font-size: $l_size;
+    margin: 0;
+}
+
+.header__subtitle {
+    color: $brand-primary;
+    font-size: $m_size;
+    font-weight: 500;
+    margin: 0;
+}

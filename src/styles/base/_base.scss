@@ -1,0 +1,19 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: Arial, Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
+    font-size: $m_size;
+    background-color: $brand-dark;
+}
+
+button:disabled {
+    cursor: default;
+}
+
+button {
+    outline: none;
+    cursor: pointer;
+    border-radius: $xs_size;
+}

@@ -1,0 +1,25 @@
+.control {
+    background-color: $brand-light;
+    .control-header {   
+        background-color: $brand-light;
+        padding: $m_size;
+        box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    
+        display: flex;
+        justify-content: space-between;
+    
+        .control-header__title {
+            margin: 0;
+            color: $brand-primary_FADED;
+            font-weight: 500;
+        }
+    }
+
+    .control__message {
+        color: $brand-primary_FADED;
+        padding: $m_size;
+        text-align: center;
+        margin: 0;
+        border-bottom: 1px solid $brand-primary_FADED;
+    }
+}

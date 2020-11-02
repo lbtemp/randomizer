@@ -1,0 +1,18 @@
+.add-item {
+    display: flex;
+    padding: $s_size;
+
+    .add-item-input {
+        flex-grow: 1;
+        background-color: $brand-darker;
+        color: $brand-lighter;
+        padding: $s_size;
+        border: 0px;
+        outline: none;
+    }
+}
+
+.add-item-error {
+    color: $brand-danger;
+    padding: 0 $s_size;
+}
